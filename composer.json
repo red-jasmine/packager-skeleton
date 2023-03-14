@@ -12,11 +12,10 @@
     "homepage": "https://github.com/:lc:vendor/:lc:package",
     "keywords": ["Laravel", ":uc:package"],
     "require": {
-        "illuminate/support": "~9"
+        "red-jasmine/support": "1.0.x-dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "~9.0",
-        "orchestra/testbench": "~7"
+
     },
     "autoload": {
         "psr-4": {
@@ -36,6 +35,10 @@
             "aliases": {
                 ":uc:package": ":uc:vendor\\:uc:package\\Facades\\:uc:package"
             }
+        },
+        "branch-alias": {
+            "dev-master": "1.0.x-dev",
+            "dev-main": "1.0.x-dev"
         }
     }
 }
