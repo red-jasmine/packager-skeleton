@@ -33,7 +33,7 @@
                 ":uc:vendor\\:uc:package\\:uc:packageServiceProvider"
             ],
             "aliases": {
-                ":uc:package": ":uc:vendor\\:uc:package\\Facades\\:uc:package"
+                ":uc:packageService": ":uc:vendor\\:uc:package\\Facades\\:uc:packageService"
             }
         },
         "branch-alias": {
